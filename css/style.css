@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
 body {
-    font-family: raleway !important;
+    font-family: Montserrat !important;
     font-weight: 300;
 }
 
@@ -252,6 +253,14 @@ a:active {
     border-radius: 20px;
     padding: 20px;
     background: #e7e7e7;
+    
+}
+.product-box p{
+    
+    font-size: 13px;
+}
+.prod-title {
+    font-size: 17px;
 }
 
 .product-box .prod-img{
