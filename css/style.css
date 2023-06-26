@@ -111,6 +111,29 @@ a:active {
     color: #50b1b5 !important;
 }
 
+.theme-btn{
+    background: #50b1b5;
+    font-size: 18px;
+    border-radius: 1em;
+    padding: 6px 27px;
+    border: 0;
+}
+.theme-btn a{
+    color: white !important;
+    text-decoration: none;
+}
+
+.theme-btn-opposite{
+    background: #ebebeb;
+    font-size: 18px;
+    border-radius: 1em;
+    padding: 6px 27px;
+    border: 0;
+}
+.theme-btn-opposite a{
+    color: #50b1b5 !important;
+    text-decoration: none;
+}
 .navbar-nav .dropdown-menu {
     position: static;
     margin-top: 5px;
@@ -231,9 +254,15 @@ a:active {
     background: #e7e7e7;
 }
 
-.product-box .prod-img img{
+.product-box .prod-img{
     border-radius: 10px !important;
 }
+
+img.prod-blur-img{
+    filter: blur(4px);
+  -webkit-filter: blur(4px);
+}
+
 .product-box .prod-content{
     margin-top: 10px;
 }

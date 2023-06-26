@@ -15,7 +15,7 @@
 
         <nav class="navbar navbar-expand-lg  bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="index.html">
                     <img src="images/logo-1.png" class="logo-one" alt="Risidio Collection">
                     <img src="images/logo-2.png" class="logo-two d-none" alt="Risidio Marketplace">
                 </a>
@@ -173,7 +173,7 @@
                             <div class="col-md-3 item-3">
                                 <div class="product-box">
                                     <div class="prod-img">
-                                        <img src="images/art-1.png" class="rounded img-fluid w-100" alt="artwork title">
+                                        <img src="images/art-1.png" class="rounded img-fluid w-100 prod-blur-img" alt="artwork title">
                                     </div>
                                     <div class="clearfix"></div>
                                     <div class="prod-content">
@@ -190,7 +190,7 @@
                             <div class="col-md-3 item-4">
                                 <div class="product-box">
                                     <div class="prod-img">
-                                        <img src="images/art-1.png" class="rounded img-fluid w-100" alt="artwork title">
+                                        <img src="images/art-1.png" class="rounded img-fluid w-100 prod-blur-img" alt="artwork title">
                                     </div>
                                     <div class="clearfix"></div>
                                     <div class="prod-content">
@@ -422,6 +422,12 @@
                             </div>
 
                         </div>
+
+                        <div class="fetch-completed mt-5">
+                            <h3 class="fw-light">You've seen the all collection</h3>
+                            <button class="btn btn-dark btn-lg theme-btn me-2"><a href="#">Gallery</a></button>
+                            <button class="btn btn-dark btn-lg theme-btn-opposite"><a href="#">Gallery</a></button>
+                        </div>
                         
                         </div>
                         <div class="tab-pane fade mt-5 mb-5" id="activity-tab-pane" role="tabpanel" aria-labelledby="activity-tab"
@@ -446,7 +452,7 @@
         <div class="row">
             <div class="col-md-5">
                 <div class="footer-logo">
-                    <img src="images/logo-cleaned.png" class="img-fluid" alt="Risidio">
+                    <a href="index.html"><img src="images/logo-cleaned.png" class="img-fluid" alt="Risidio"></a>
                 </div>
                 <div class="company-desc">
                     <p>Risidio Marketplace is a decentralised marketplace to buy and sell NFTs and digital collectibles on the Bitcoin blockchain using Stacks.</p>
@@ -458,14 +464,14 @@
                         <h3>NFT</h3>
                         <ul>
                             <a href=""><li>Your NFT</li></a>
-                            <a href=""><li>Mint A File</li></a>
+                            <a href="mint-an-nft.html"><li>Mint A File</li></a>
                         </ul>
                     </div>
                     <div class="col">
                         <h3>How it works</h3>
                         <ul>
-                            <a href=""><li>Your NFT</li></a>
-                            <a href=""><li>Mint A File</li></a>
+                            <a href=""><li>Self Owned Indenty</li></a>
+                            <a href=""><li>Getting Testnet Stc</li></a>
                         </ul>
                     </div>
                     <div class="col">
@@ -483,6 +489,7 @@
 
     <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="js/jquery-3.7.0.min.js"></script>
+    <script type="text/javascript" src="js/hiro-wallet.js"></script>
     <script>
 
         $(document).ready(function () {
