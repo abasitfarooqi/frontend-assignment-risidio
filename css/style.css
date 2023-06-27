@@ -331,4 +331,19 @@ img.prod-blur-img{
     .dropdown-menu{
         margin-left: 0;
     }
+        
+    .prod-title{
+        font-size: 14px;
+    }
+    .prod-fprice{
+        font-size: 14px;
+    }
+    .prod-artist{
+        font-size: 10px;
+
+    }
+    .product-box p{
+        
+        font-size: 10px;
+    }
 }
