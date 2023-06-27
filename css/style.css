@@ -11,8 +11,9 @@ a:active {
     color: #50b1b5;
     text-decoration: none;
 }
-
-
+a:hover{
+    color: #239094 !important;
+}
 .navbar {
     background-color: rgb(22, 9, 110);
     /* #16096d*/
@@ -101,7 +102,7 @@ a:active {
     background: #50b1b5;
     font-size: 15px;
     border-radius: 1.5em;
-    padding: 10px 30px;
+    padding: 10px 35px;
     border: 0;
     
     font-weight: 500;
@@ -115,7 +116,7 @@ a:active {
     background: #ebebeb;
     font-size: 15px;
     border-radius: 1.5em;
-    padding: 10px 30px;
+    padding: 10px 35px;
     border: 0;
     font-weight: 500;
 }
@@ -130,6 +131,7 @@ a:active {
 
 .dropdown-menu{
     background: white;
+    margin-left: 20px;
 }
 
 .dropdown-menu a.dropdown-item:hover {
@@ -235,17 +237,17 @@ a:active {
     font-weight: 500;
     color: #50b1b5;
 }
-
+.readmore-btn{
+    font-weight: 500;
+}
 
 .product-box{
     margin-top: 30px;
     border-radius: 20px;
     padding: 20px;
     background: #e7e7e7;
-    
 }
 .product-box p{
-    
     font-size: 13px;
 }
 .prod-title {
@@ -264,7 +266,14 @@ img.prod-blur-img{
 .product-box .prod-content{
     margin-top: 10px;
 }
+.nomore-collection{
+    margin:80px;
+}
 
+.nomore-collection h3{
+    font-size: 25px;
+    margin-bottom: 40px;
+}
 
 .footer{
     background-color: #5154a1;
@@ -284,7 +293,7 @@ img.prod-blur-img{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    margin-top: 42px;
+    margin-top: 52px;
     margin-bottom: 32px;
 }
 
@@ -317,6 +326,9 @@ img.prod-blur-img{
         border-bottom: 1px solid white;
     }
     .nav-link {
+        margin-left: 0;
+    }
+    .dropdown-menu{
         margin-left: 0;
     }
 }
