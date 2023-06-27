@@ -331,4 +331,7 @@ img.prod-blur-img{
     .dropdown-menu{
         margin-left: 0;
     }
+    .container{
+        padding:30px;
+    }
 }
