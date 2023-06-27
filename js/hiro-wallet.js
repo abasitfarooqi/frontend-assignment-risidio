@@ -17,8 +17,7 @@ function checkHiroWalletInstalled() {
     if (!checkHiroWalletInstalled()) {
       promptInstallHiroWallet();
     } else {
-
-
+        // Put Logic Here        
     }
   }
   
