@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
 body {
     font-family: Montserrat !important;
     font-weight: 300;
@@ -106,6 +106,8 @@ a:active {
     padding: 3px 27px;
     background: #493dc8;
     border-radius: 2em;
+    font-weight: 700;
+    margin-left: 0 !important;
 }
 
 .custom-button a {
@@ -114,10 +116,12 @@ a:active {
 
 .theme-btn{
     background: #50b1b5;
-    font-size: 18px;
-    border-radius: 1em;
-    padding: 6px 27px;
+    font-size: 15px;
+    border-radius: 1.5em;
+    padding: 10px 30px;
     border: 0;
+    
+    font-weight: 500;
 }
 .theme-btn a{
     color: white !important;
@@ -126,10 +130,11 @@ a:active {
 
 .theme-btn-opposite{
     background: #ebebeb;
-    font-size: 18px;
-    border-radius: 1em;
-    padding: 6px 27px;
+    font-size: 15px;
+    border-radius: 1.5em;
+    padding: 10px 30px;
     border: 0;
+    font-weight: 500;
 }
 .theme-btn-opposite a{
     color: #50b1b5 !important;
@@ -198,11 +203,11 @@ a:active {
 
 .collection-details .row h5 {
     font-weight: 300;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 .collection-details .row p {
-    font-weight: 500;
+    font-weight: 700;
     font-size: 15px;
 }
 
@@ -235,10 +240,11 @@ a:active {
     display: block;
     padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
     font-size: var(--bs-nav-link-font-size);
-    font-weight: var(--bs-nav-link-font-weight);
+    font-weight: 500;
     color: #000;
     text-decoration: none;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    margin-left: 20px;
 }
 
 .nav-tabs .nav-item.show .nav-link,
