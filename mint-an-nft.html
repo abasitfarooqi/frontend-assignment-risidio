@@ -163,7 +163,7 @@
             const nftImage = document.getElementById("nftImage").files[0];
             
             // Perform logic to mint the NFT
-                hiroWallet.mintNFT(nftName, nftDescription, nftImage)
+                HiroWalletProvider.mintNFT(nftTitle, nftDescription, nftImage)
                 .then((response) => {
                 // Handle the success response
                 console.log("NFT minted successfully!", response);
@@ -173,7 +173,7 @@
                 console.error("Failed to mint NFT:", error);
                 });
         
-            // Reset the form fields after successful minting
+            // Reset after successful minting
             document.getElementById("nftTitle").value = "";
             document.getElementById("nftDescription").value = "";
             document.getElementById("nftImage").value = "";

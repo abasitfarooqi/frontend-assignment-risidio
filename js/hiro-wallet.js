@@ -1,6 +1,6 @@
 //check if Hiro wallet is installed
 function checkHiroWalletInstalled() {
-    if (typeof window.ethereum !== 'undefined' && window.ethereum.isMetaMask) {
+    if (typeof window.HiroWalletProvider !== 'undefined') {
       return true;
     } else {
       return false;
