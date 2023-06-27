@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
 body {
     font-family: Montserrat !important;
     font-weight: 300;
@@ -11,9 +12,11 @@ a:active {
     color: #50b1b5;
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
     color: #239094 !important;
 }
+
 .navbar {
     background-color: rgb(22, 9, 110);
     /* #16096d*/
@@ -86,6 +89,8 @@ a:hover{
     transform: translate(0%, 0%) rotate(0deg);
 }
 
+/* Theme Custom Button */
+
 .custom-button {
     padding: 3px 27px;
     background: #493dc8;
@@ -98,21 +103,22 @@ a:hover{
     color: #50b1b5 !important;
 }
 
-.theme-btn{
+.theme-btn {
     background: #50b1b5;
     font-size: 15px;
     border-radius: 1.5em;
     padding: 10px 35px;
     border: 0;
-    
+
     font-weight: 500;
 }
-.theme-btn a{
+
+.theme-btn a {
     color: white !important;
     text-decoration: none;
 }
 
-.theme-btn-opposite{
+.theme-btn-opposite {
     background: #ebebeb;
     font-size: 15px;
     border-radius: 1.5em;
@@ -120,16 +126,21 @@ a:hover{
     border: 0;
     font-weight: 500;
 }
-.theme-btn-opposite a{
+
+.theme-btn-opposite a {
     color: #50b1b5 !important;
     text-decoration: none;
 }
+
+
+/* Navbar Dropdown Styling */
+
 .navbar-nav .dropdown-menu {
     position: static;
     margin-top: 5px;
 }
 
-.dropdown-menu{
+.dropdown-menu {
     background: white;
     margin-left: 20px;
 }
@@ -138,6 +149,8 @@ a:hover{
     color: #50b1b5;
     background-color: rgba(22, 9, 110, 1);
 }
+
+/* Collection Page Styling */
 
 .collection-page {
     background: url(../images/collection-bg.jpg) no-repeat center center fixed;
@@ -196,6 +209,8 @@ a:hover{
     font-size: 15px;
 }
 
+/* Navbar Styling */
+
 .nav-tabs .nav-item .nav-link,
 .nav-tabs .nav-link {
     border-top: 0;
@@ -237,59 +252,71 @@ a:hover{
     font-weight: 500;
     color: #50b1b5;
 }
-.readmore-btn{
+
+.readmore-btn {
     font-weight: 500;
 }
 
-.product-box{
+/* Items Design */
+
+.product-box {
     margin-top: 30px;
     border-radius: 20px;
     padding: 20px;
     background: #e7e7e7;
 }
-.product-box p{
+
+.product-box p {
     font-size: 13px;
 }
+
 .prod-title {
     font-size: 17px;
 }
 
-.product-box .prod-img{
+.product-box .prod-img {
     border-radius: 10px !important;
 }
 
-img.prod-blur-img{
+img.prod-blur-img {
     filter: blur(4px);
-  -webkit-filter: blur(4px);
+    -webkit-filter: blur(4px);
 }
 
-.product-box .prod-content{
+.product-box .prod-content {
     margin-top: 10px;
 }
-.nomore-collection{
-    margin:80px 0;
+
+.nomore-collection {
+    margin: 80px 0;
 }
 
-.nomore-collection h3{
+.nomore-collection h3 {
     font-size: 25px;
     margin-bottom: 40px;
 }
 
-.footer{
+/* Footer */
+
+.footer {
     background-color: #5154a1;
     padding: 35px 25px;
     color: white;
 }
-.footer .company-desc{
+
+.footer .company-desc {
     padding-right: 20px;
 }
-.footer h3{
+
+
+.footer h3 {
     font-size: 20px;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     color: rgb(240, 240, 240);
 }
-.footer ul{
+
+.footer ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -297,12 +324,13 @@ img.prod-blur-img{
     margin-bottom: 32px;
 }
 
-.footer ul a{
+.footer ul a {
     color: white;
     text-decoration: none;
     font-size: 15px;
 }
-.footer .footer-logo img{
+
+.footer .footer-logo img {
     width: 150px;
     margin-bottom: 10px;
 }
@@ -325,25 +353,30 @@ img.prod-blur-img{
         border-top: 1px solid white;
         border-bottom: 1px solid white;
     }
+
     .nav-link {
         margin-left: 0;
     }
-    .dropdown-menu{
+
+    .dropdown-menu {
         margin-left: 0;
     }
-        
-    .prod-title{
+
+    .prod-title {
         font-size: 14px;
     }
-    .prod-fprice{
+
+    .prod-fprice {
         font-size: 14px;
     }
-    .prod-artist{
+
+    .prod-artist {
         font-size: 10px;
 
     }
-    .product-box p{
-        
+
+    .product-box p {
+
         font-size: 10px;
     }
 }
